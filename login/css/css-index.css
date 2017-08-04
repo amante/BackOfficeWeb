@@ -117,6 +117,41 @@ a:hover {
 	background: #3eb0f7;
 	color: white;
 }
+.btn-primary-johnsons {
+	font-size: 17px;
+	margin: 30px 0 10px;
+	margin-right: 10px;
+	line-height: 20px;
+	padding: 15px 35px;
+	height: 5	border: 2px solid #d27e04;
+	background: #d27e04;
+	transition: all 0.4s;
+	color: white;
+	border-radius: 100px;
+}
+.btn-primary-johnsons:hover, .btn-primary-johnsons:focus, .btn-primary-johnsons:active, .btn-primary-johnsons.active, .open > .dropdown-toggle.btn-primary-johnsons {
+	border: 2px solid #d27e04;
+	background: transparent;
+	color: #d27e04;
+}
+.btn-primary-paris {
+	font-size: 17px;
+	margin: 30px 0 10px;
+	margin-right: 10px;
+	line-height: 20px;
+	padding: 15px 35px;
+	height: 50px;
+	border: 2px solid #3eb0f7;
+	background: #3eb0f7;
+	transition: all 0.4s;
+	color: white;
+	border-radius: 100px;
+}
+.btn-primary-paris:hover, .btn-primary-paris:focus, .btn-primary-paris:active, .btn-primary-paris.active, .open > .dropdown-toggle.btn-primary-paris {
+	border: 2px solid #3eb0f7;
+	background: transparent;
+	color: #3eb0f7;
+}
 .btn-primary {
 	font-size: 17px;
 	margin: 30px 0 10px;
