@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Backoffice Web v2.0</title>
+    <title>Backoffice Web 2.0</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -45,7 +45,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.html">BackOffice Web v2.0</a>
+                <a class="navbar-brand" href="index.html">BackOffice Web 2.0</a>
             </div>
             <!-- /.navbar-header -->
 
@@ -104,9 +104,6 @@
 							<!-- /.nav-second-level -->
                         </li>
                         <li>
-                            <a href="#"><i class="fa fa-bar-chart-o fa-fw"></i> Reportes</a>
-                        </li>
-                        <li>
                             <a href="#"><i class="fa fa-table fa-fw"></i> Usuarios<span class="fa arrow"></span></a>
                             <ul class="nav nav-second-level">
                                 <li>
@@ -121,21 +118,22 @@
                             </ul>
                         </li>
                         <li>
-                            <a href="#"><i class="fa fa-table fa-fw"></i> Informes<span class="fa arrow"></span></a>
+                            <a href="#"><i class="fa fa-wrench fa-fw"></i> Perfilamiento<span class="fa arrow"></span></a>
 							<ul class="nav nav-second-level">
-								<li><a href="#">Congelamiento</a></li>
-								<li><a href="#">Stock</a></li>
-								<li><a href="#">Registro Log</a></li>
-								<li><a href="#">Estadisticas</a></li>
+								<li><a href="#">Mant. Perf.</a></li>
+								<li><a href="#">Asignar Perf-Mod</a></li>
+								<li><a href="#">Asignar Usu-Perf</a></li>
 							</ul>
                         </li>
                         <li>
-                            <a href="#"><i class="fa fa-wrench fa-fw"></i> Perfilamiento<span class="fa arrow"></span></a>
-							<ul class="nav nav-second-level">
-								<li><a href="/parisbackoffice/Perfilamiento.do?method=cargaMantencionPerfiles">Mant. Perf.</a></li>
-								<li><a href="/parisbackoffice/Perfilamiento.do?method=cargaMantencionPerfilesModulo">Asignar Perf-Mod</a></li>
-								<li><a href="/parisbackoffice/Perfilamiento.do?method=cargarMantencionUsuarioPerfiles">Asignar Usu-Perf</a></li>
-							</ul>
+                            <a href="#"><i class="fa fa-wrench fa-fw"></i> Protección de Precios<span class="fa arrow"></span></a>
+                            <ul class="nav nav-second-level">
+                                <li><a href="#">Excepciones</a></li>
+                                <li><a href="#">Excepciones Masivas</a></li>
+                                <li><a href="#">DFC</a></li>
+                                <li><a href="#">Logs</a></li>
+                                <li><a href="#">Filtrado</a></li>
+                            </ul>
                         </li>
                     </ul>
                 </div>
@@ -148,7 +146,7 @@
             <div class="row">
                 <div class="col-lg-12">
                     <h1 class="page-header">Bienvenido a BackOffice Web v2.0</h1>
-					<h3>Features List: </h3>
+					<h3>Listado de Módulos: </h3>
                 </div>
                 <!-- /.col-lg-12 -->
             </div>
@@ -177,15 +175,15 @@
                                     <h4>Congelamiento</h4>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                                 </div>
-                                <div class="tab-pane fade" id="congelamiento-masivo-pills">
+                                <div class="tab-pane fade" id="congelamiento-pills">
                                     <h4>Congelamiento Masivo</h4>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                                 </div>
-                                <div class="tab-pane fade" id="stock-pills">
+                                <div class="tab-pane fade" id="congelamiento-pills">
                                     <h4>Stock</h4>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                                 </div>
-                                <div class="tab-pane fade" id="tamano-masivo-pills">
+                                <div class="tab-pane fade" id="congelamiento-pills">
                                     <h4>Tamaño Masivo</h4>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                                 </div>
@@ -213,38 +211,32 @@
                 <div class="col-lg-8">
                     <div class="panel panel-default">
                         <div class="panel-heading">
-                            Informes
+                            Usuarios
                         </div>
                         <!-- /.panel-heading -->
                         <div class="panel-body">
                             <!-- Nav tabs -->
-                            <ul class="nav nav-tabs">
-                                <li class="active"><a href="#congelamiento-tab" data-toggle="tab">Congelamiento</a>
+                            <ul class="nav nav-pills">
+                                <li class="active"><a href="#congelamiento-tab" data-toggle="tab">Agregar</a>
                                 </li>
-                                <li><a href="#stock-tab" data-toggle="tab">Stock</a>
+                                <li><a href="#stock-tab" data-toggle="tab">Eliminar</a>
                                 </li>
-                                <li><a href="#registro-log-tab" data-toggle="tab">Registro Log</a>
-                                </li>
-                                <li><a href="#estadisticas-tab" data-toggle="tab">Estadísticas</a>
+                                <li><a href="#registro-log-tab" data-toggle="tab">Modificar</a>
                                 </li>
                             </ul>
 
                             <!-- Tab panes -->
                             <div class="tab-content">
-                                <div class="tab-pane fade in active" id="congelamiento-tab">
-                                    <h4>Congelamiento</h4>
+                                <div class="tab-pane fade in active" id="congelamiento-pills">
+                                    <h4>Agregar</h4>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                                 </div>
-                                <div class="tab-pane fade" id="stock-tab">
-                                    <h4>Stock</h4>
+                                <div class="tab-pane fade" id="congelamiento-pills">
+                                    <h4>Eliminar</h4>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                                 </div>
-                                <div class="tab-pane fade" id="registro-log-tab">
-                                    <h4>Registro Log</h4>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                                </div>
-                                <div class="tab-pane fade" id="estadisticas-tab">
-                                    <h4>Estadísticas</h4>
+                                <div class="tab-pane fade" id="congelamiento-pills">
+                                    <h4>Modificar</h4>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                                 </div>
                             </div>
