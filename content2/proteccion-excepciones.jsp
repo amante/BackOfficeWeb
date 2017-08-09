@@ -261,7 +261,7 @@
 
         <!-- page content -->
         <div class="right_col" role="main">
-			<h1>Index</h1>
+			<h1>Protección de Precios - Excepciones</h1>
         </div>
         <!-- page content -->
 

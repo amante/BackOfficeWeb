@@ -5,7 +5,7 @@
     <!-- Meta, title, CSS, favicons, etc. -->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-=1">
 
     <title>BackOffice Web 2.0</title>
 
@@ -261,7 +261,7 @@
 
         <!-- page content -->
         <div class="right_col" role="main">
-			<h1>Index</h1>
+			<h1>Congelamiento Masivo</h1>
         </div>
         <!-- page content -->
 
