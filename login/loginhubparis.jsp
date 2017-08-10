@@ -56,11 +56,8 @@
                             </div>
                             <div class="head-btn wow fadeInLeft">
                                <a href="#feature" class="btn-primary">Saber Más</a>
-                               <a href="index.html" class="btn-primary">Volver</a>
+                               <a href="index.jsp" class="btn-primary">Volver</a>
                             </div>
-
-
-
                         </div> 
 
                         <!-- /.signup form -->
@@ -68,7 +65,7 @@
 
                             <div class="signup-header wow fadeInUp">
                                 <h3 class="form-title text-center">BackOffice Web 2.0</h3>
-                                <form class="form-header" action="../content/" role="form" method="POST" id="#">
+                                <form class="form-header" action="../content2/" role="form" method="POST" id="#">
                                     <input type="hidden" name="u" value="503bdae81fde8612ff4944435">
                                     <input type="hidden" name="id" value="bfdba52708">
                                     <div class="form-group">
