@@ -57,7 +57,7 @@
                                 <p><!--Backyard is a modern and customizable landing page template designed to increase conversion of your product. Backyard is flexible to suit any kind of your business. Try now and join with our happy customers!</p>-->
                             </div>
                             <div class="head-btn wow fadeInLeft">
-                               <a href="loginhubjohnsons.html" class="btn-primary-johnsons">Johnson.cl</a>
+                               <!-- <a href="loginhubjohnsons.html" class="btn-primary-johnsons">Johnson.cl</a> -->
                                <a href="loginhubparis.html" class="btn-primary-paris">Paris.cl</a>
                                <p class="privacy text-center"><br><a href="#feature">Saber Más</a></br></p>
                             </div>
