@@ -36,7 +36,7 @@ p {
 	margin:0;
 }
 a {
-	color: #3eb0f7;
+	color: #0099CC;
 	outline: 0;
 	font-weight: bold;
 	-webkit-transition: all .8s ease;
@@ -49,7 +49,7 @@ a:hover {
 	transition: all .8s ease;
 }
 .highlight {
-	color: #3eb0f7;
+	color: #0099CC;
 }
 #preloader { 
 	position: fixed; 
@@ -91,13 +91,13 @@ a:hover {
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-    color: #3eb0f7;
+    color: #0099CC;
 }
 .navbar-default .navbar-nav > .active > a, 
 .navbar-default .navbar-nav > .active > a:hover, 
 .navbar-default .navbar-nav > .active > a:focus {
 	background: transparent;
-    color: #3eb0f7;
+    color: #0099CC;
 }
 .btn-default {
 	font-size: 17px;
@@ -106,15 +106,15 @@ a:hover {
 	line-height: 20px;
 	padding: 15px 35px;
 	height: 50px;
-	border: 2px solid #3eb0f7;
+	border: 2px solid #0099CC;
 	background: transparent;
 	transition: all 0.4s;
-	color: #3eb0f7;
+	color: #0099CC;
 	border-radius: 100px;
 }
 .btn-default:hover, .btn-default:focus, .btn-default:active, .btn-default.active, .open > .dropdown-toggle.btn-default {
-	border: 2px solid #3eb0f7;
-	background: #3eb0f7;
+	border: 2px solid #0099CC;
+	background: #0099CC;
 	color: white;
 }
 .btn-primary-johnsons {
@@ -141,16 +141,16 @@ a:hover {
 	line-height: 20px;
 	padding: 15px 35px;
 	height: 50px;
-	border: 2px solid #3eb0f7;
-	background: #3eb0f7;
+	border: 2px solid #0099CC;
+	background: #0099CC;
 	transition: all 0.4s;
 	color: white;
 	border-radius: 100px;
 }
 .btn-primary-paris:hover, .btn-primary-paris:focus, .btn-primary-paris:active, .btn-primary-paris.active, .open > .dropdown-toggle.btn-primary-paris {
-	border: 2px solid #3eb0f7;
+	border: 2px solid #0099CC;
 	background: transparent;
-	color: #3eb0f7;
+	color: #0099CC;
 }
 .btn-primary {
 	font-size: 17px;
@@ -159,16 +159,16 @@ a:hover {
 	line-height: 20px;
 	padding: 15px 35px;
 	height: 50px;
-	border: 2px solid #3eb0f7;
-	background: #3eb0f7;
+	border: 2px solid #0099CC;
+	background: #0099CC;
 	transition: all 0.4s;
 	color: white;
 	border-radius: 100px;
 }
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
-	border: 2px solid #3eb0f7;
+	border: 2px solid #0099CC;
 	background: transparent;
-	color: #3eb0f7;
+	color: #0099CC;
 }
 .btn-secondary {
 	font-size: 20px;
@@ -177,7 +177,7 @@ a:hover {
 	padding: 20px 50px;
 	height: 65px;
 	border: none;
-	background: #3eb0f7;
+	background: #0099CC;
 	transition: all 0.4s;
 	color: white;
 	border-radius: 4px;
@@ -253,7 +253,7 @@ a:hover {
 	border-radius: 0;
 	height: 55px;
 	width: 100%;
-	background-color: #3eb0f7;
+	background-color: #0099CC;
 	color: white;
 	font-size: 17px !important;
 	padding: 0 33px;
@@ -326,7 +326,7 @@ a:hover {
 	transition: all .8s ease;
 }
 .feat-list:hover i {
-	color: #3eb0f7;
+	color: #0099CC;
 	-webkit-transition: all .8s ease;
 	transition: all .8s ease;
 }
@@ -376,7 +376,7 @@ a:hover {
 }
 .subscribe-form button {
 	border-radius: 0 4px 4px 0;
-	background-color: #3eb0f7;
+	background-color: #0099CC;
 	color: #ffffff;
 	font-size: 1em;
 	line-height: 52px;
@@ -416,7 +416,7 @@ a:hover {
     width: 100px;
     height: 3px;
     margin: 0 auto;
-    background: #3eb0f7;
+    background: #0099CC;
 }
 .price-box {
 	border: solid 1px #d1d1d1;
@@ -444,7 +444,7 @@ a:hover {
 	bottom: 48px;
 }
 .price-group .price {
-	color: #3eb0f7;
+	color: #0099CC;
 	font-size: 90px;
 	font-weight: 500;
 }
@@ -463,7 +463,7 @@ a:hover {
 	font-size: 17px;
 	padding: 7px 35px;
 	height: 40px;
-	background: #3eb0f7;
+	background: #0099CC;
 	transition: all 0.4s;
 	color: white;
 	border-radius: 4px;	
@@ -523,10 +523,10 @@ a:hover {
 }
 .testi-item .client-info .company {
 	font-style: italic;
-	color: #3eb0f7;
+	color: #0099CC;
 }
 .owl-theme .owl-controls .owl-page span{
-	background: #3eb0f7;
+	background: #0099CC;
 }
 .video-header {
 	margin: 40px 0 30px;
@@ -580,7 +580,7 @@ a:hover {
 	margin-left: 15px;
 	position: absolute; 
 	left: 0;
-	color: #3eb0f7; 
+	color: #0099CC; 
 	font-size: 25px;
 	line-height: 30px;
 }
@@ -612,7 +612,7 @@ a:hover {
 #contact-form .btn {
 	height: 55px;
 	width: 100%;
-	background-color: #3eb0f7;
+	background-color: #0099CC;
 	color: #ffffff;
 	font-size: 17px !important;
 	line-height: 18px;
@@ -646,16 +646,16 @@ a:hover {
 	width: 40px;
 	height: 40px;
 	line-height: 40px;
-	color: #3eb0f7;
+	color: #0099CC;
 	border-radius: 50%;
 	background: #fff;
-	border: solid 1px #3eb0f7;
+	border: solid 1px #0099CC;
 	-webkit-transition: all .8s ease;
 	transition: all .8s ease;
 }
 .social li a:hover {
 	color: #fff;
-	background: #3eb0f7;
+	background: #0099CC;
 }
 #shortcode-basic {
 	padding: 70px 0 10px;
@@ -682,7 +682,7 @@ a:hover {
 	padding: 50px 0 10px;
 }
 .social-icons i {
-	color: #3eb0f7;
+	color: #0099CC;
 	font-size: 30px;
 	line-height: 40px
 }
@@ -709,7 +709,7 @@ a:hover {
 	margin-right: 20px;
 }
 .table > thead > tr > th { 
-	background: #3eb0f7; 
+	background: #0099CC; 
 	color: #fff; 
 	border-bottom: 0; 
 	text-transform: uppercase; 
@@ -743,7 +743,7 @@ a:hover {
 	display: none;
 }
 .scrollToTop:hover{
-	color: #3eb0f7;
+	color: #0099CC;
 }
 .control-group .controls {
 	overflow-x: hidden;
