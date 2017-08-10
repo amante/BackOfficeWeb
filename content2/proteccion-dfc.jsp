@@ -262,7 +262,20 @@
 
         <!-- page content -->
         <div class="right_col" role="main">
-			<h1>Protección de Precios - DFC</h1>
+			<h1 align="center">Protección de Precios</h1>
+			<h3 align="center">DFC</h3>
+
+			<h2 align="left">DFC:
+					<select>
+				<option value="valor0"></option>
+				<option value="valor1">Valor1</option>
+				<option value="valor2">Valor2</option>
+				<option value="valor3">Valor3</option>
+				<option value="valor4">Valor4</option>
+					</select>
+			</h2>
+			<h2 align="left">Porcentaje:<input type="number" name="porcentaje">%</h2>
+			<button type="button">Modificar</button>
         </div>
         <!-- page content -->
 

@@ -261,9 +261,18 @@
         </div>
 
         <!-- page content -->
-        <div class="right_col" role="main">
-			<h1>Protección de Precios - Excepciones Masivas</h1>
+        <form>
+		<div class="right_col" role="main">
+			<h1 align="center">Protección de Precios</h1>
+			<h3 align="center">Excepciones Masivas</h3>
+			<textarea rows="13" cols="18" id="codigoSku">Ingrese los codigos SKU</textarea>
+			<h2>Descripción de Congelamiento:</h2><input type="text" name="descripcion">
+			<h2>Fecha Inicio:</h2>  <input type="date" name="fechaInicio">
+			<h2>Fecha Término:</h2>  <input type="date" name="fechaTermino">
+			</br></br>
+			<button type="button">Buscar</button>
         </div>
+		</form>
         <!-- page content -->
 
         <!-- footer content -->

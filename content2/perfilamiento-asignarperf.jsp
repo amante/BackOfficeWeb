@@ -262,7 +262,10 @@
 
         <!-- page content -->
         <div class="right_col" role="main">
-			<h1>Perfilamiento - Asignar Perfil</h1>
+			<h1 align="center">Perfilamiento</h1>
+			<h3 align="center">Asignar Perfiles-Módulo</h3>
+			<h2 align="left">Nombre de Perfil:</h2><input type="text" name="nombre">
+			<button type="button">Buscar</button>
         </div>
         <!-- page content -->
 
