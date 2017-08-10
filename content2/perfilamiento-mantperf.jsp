@@ -262,7 +262,11 @@
 
         <!-- page content -->
         <div class="right_col" role="main">
-			<h1>Perfilamiento - Mant. Perf.</h1>
+			<h1 align="center">Perfilamiento</h1>
+			<h3 align="center">Mantención Perfiles</h3>
+			<h4 align="left">Nombre de Perfil:</h4><input type="text" name="nombre"> 
+			<button type="button">Buscar</button>
+			<button type="button">Agregar</button>
         </div>
         <!-- page content -->
 
@@ -275,9 +279,9 @@
           </div>
           <div class="clearfix"></div>
         </footer>
-		-->
 		
         <!-- /footer content -->
+
       </div>
     </div>
 

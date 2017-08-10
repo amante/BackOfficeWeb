@@ -262,7 +262,11 @@
 
         <!-- page content -->
         <div class="right_col" role="main">
-			<h1>Protección de Precios - Logs</h1>
+			<h1 align="center">Protección de Precios</h1>
+			<h3 align="center">Logs</h3>
+			<h2 align="left">SKU o DFC:</h2><input type="text" name="nombre">
+			<h2 align="left">Fecha:</h2>  <input type="date" name="fecha">
+			<button type="button">Buscar</button>
         </div>
         <!-- page content -->
 

@@ -262,7 +262,10 @@
 
         <!-- page content -->
         <div class="right_col" role="main">
-			<h1>Perfilamiento - Asignar Usuario</h1>
+			<h1 align="center">Perfilamiento</h1>
+			<h3 align="center">Asignar Usuario-Perfil</h3>
+			<h2 align="left">Buscar Usuario:</h4><input type="text" name="nombre">
+			<button type="button">Buscar</button>
         </div>
         <!-- page content -->
 
