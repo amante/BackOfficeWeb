@@ -58,9 +58,6 @@
                                <a href="#feature" class="btn-primary">Saber Más</a>
                                <a href="index.jsp" class="btn-primary">Volver</a>
                             </div>
-
-
-
                         </div> 
 
                         <!-- /.signup form -->
