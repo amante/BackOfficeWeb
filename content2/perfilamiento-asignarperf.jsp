@@ -66,11 +66,40 @@
 			<h3 align="center">Asignar Perfiles-Módulo</h3>
 			<h2 align="left">Nombre de Perfil:</h2><input type="text" name="nombre">
 			<button type="button">Buscar</button>
-        </div>
+			<div id="scroll" style="overflow-y: scroll;overflow-x:hidden;height:200px;width: 100%">
+  					<table  border="1" width="100%" style="border-collapse: collapse; border-style: dotted">
+  				
+	  					<tr  bgcolor="#638cb5">
+	  						<td width="25%" align="center"><font size="2" color="white">Nombre Perfil</font></td>
+	  						<td width="12%" align="center"><font size="2" color="white">Módulo Mantenedores</font></td>
+	  						<td width="12%" align="center"><font size="2" color="white">Módulo Reportes</font></td>
+	  						<td width="12%" align="center"><font size="2" color="white">Módulo Mantenedor Usuario</font></td>
+	  						<td width="12%" align="center"><font size="2" color="white">Módulo Informes</font></td>
+	  						<td width="12%" align="center"><font size="2" color="white">Módulo Perfilamiento</font></td>
+	  					</tr>
+			</div>
+			<tr onmouseover="cambiar_color_over(this)" onmouseout="cambiar_color_out(this)">	
+	  	
+	  							
+	  							
+	  								<td width="25%" align="center"><font size="2">TEST</font></td>
+	  								<td width="12%" align="center"><font size="2"><input type="checkbox" name="mantenedor" value="on" checked="checked" id="mantenedor1"></font></td>
+	  								<td width="12%" align="center"><font size="2"><input type="checkbox" name="reporte" value="on" id="reporte1"></font></td>
+	  								<td width="12%" align="center"><font size="2"><input type="checkbox" name="mantenedorUsuario" value="on" id="mantenedorUsuario1"></font></td>
+	  								<td width="12%" align="center"><font size="2"><input type="checkbox" name="informes" value="on" id="informes1"></font></td>
+	  								<td width="12%" align="center"><font size="2"><input type="checkbox" name="perfilamiento" value="on" id="perfilamiento1"></font></td>
+	  								<td width="20%" align="center">
+	  							  		<a onclick="modificarPerfil('TEST', 1)">
+											<button type="button">Modificar</button>
+	  							  		</a>
+	  							  	</td> 
+	  							
+	  						</tr>
+
         <!-- page content -->
 
          <!-- footer content -->
-        <jsp:include page="footer.jsp" />
+        <!--<jsp:include page="footer.jsp" /> -->
         <!-- /footer content -->
 		
       </div>

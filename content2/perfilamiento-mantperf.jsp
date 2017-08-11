@@ -66,12 +66,37 @@
 			<h3 align="center">Mantención Perfiles</h3>
 			<h4 align="left">Nombre de Perfil:</h4><input type="text" name="nombre"> 
 			<button type="button">Buscar</button>
-			<button type="button">Agregar</button>
-        </div>
+			<button type="button">Agregar</button>		
+        
+			<div id="scroll" style="overflow-y: scroll;overflow-x:hidden;height:200px;width: 100%">
+  					<table  border="1" width="95%" style="border-collapse: collapse; border-style: dotted">
+  				
+	  					<tr  bgcolor="#638cb5">
+	  						<td width="25%" align="center"><font size="2" color="white">Nombre Perfil</font></td>
+	  						<td width="25%" align="center"><font size="2" color="white">Usuario Creador</font></td>
+	  						<td width="25%" align="center"><font size="2" color="white">Descripción</font></td>
+	  						<td width="25%" align="center"><font size="2" color="white">Fecha Creación</font></td>
+	  						<td width="25%" align="center"><font size="2" color="white"></font></td>
+	  					</tr>
+			</div>
+	  						<tr onmouseover="cambiar_color_over(this)" onmouseout="cambiar_color_out(this)">	
+	  								<td width="25%" align="center"><font size="2">TEST</font></td>
+	  								<td width="25%" align="center"><font size="2">MIGUEL</font></td>
+	  								<td width="25%" align="center"><font size="2">TEST</font></td>
+	  								<td width="25%" align="center"><font size="2">2013-01-16</font></td>
+	  							  <td width="25%" align="center">
+	  							  	<a onclick="eliminar_perfiles('TEST')">
+	  							  		<button type="button">Eliminar</button>
+	  							  	</a>
+	  							  </td> 
+	  						</tr>
+	  					
+
+		</div>
         <!-- page content -->
 
        <!-- footer content -->
-        <jsp:include page="footer.jsp" />
+       <!-- <jsp:include page="footer.jsp" /> -->
         <!-- /footer content -->
       </div>
     </div>

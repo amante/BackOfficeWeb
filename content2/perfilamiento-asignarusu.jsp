@@ -66,11 +66,43 @@
 			<h3 align="center">Asignar Usuario-Perfil</h3>
 			<h2 align="left">Buscar Usuario:</h4><input type="text" name="nombre">
 			<button type="button">Buscar</button>
+			
+			<div id="scroll" style="overflow-y: scroll;overflow-x:hidden;height:200px;width: 100%">
+  					<table  border="1" width="100%" style="border-collapse: collapse; border-style: dotted">
+						<tr  bgcolor="#638cb5">
+	  						<td width="33%" align="center"><font size="2" color="white">Usuario</font></td>
+	  						<td width="33%" align="center"><font size="2" color="white">Perfil</font></td>
+	  						<td width="33%" align="center"><font size="2" color="white"></font></td>
+	  					</tr>
+	  			
+  					
+	  					
+	  					
+	  						<tr onmouseover="cambiar_color_over(this)" onmouseout="cambiar_color_out(this)">	
+	  								<td width="33%" align="center"><font size="2">Micky</font></td>
+	  								<td width="33%" align="center">
+	  									<font size="2">
+	  										 <select name="perfilComboUserPerf" id="perfilComboUserPerf1"><option value=""></option>
+            								     <option value="TEST">TEST</option>
+												<option value="ADMIN">ADMIN</option>
+												<option value="Congelador">Congelador</option>
+												<option value="CR">CR</option>
+												<option value="C">C</option>
+												<option value="R" selected="selected">R</option></select> 
+	  									</font>
+	  								</td>
+	  								<td width="33%" align="center">
+	  							  		<a onclick="modificar('bmadain', 1)">
+	  							  			<button type="button">Modificar</button>
+	  							  		</a>
+	  							  	</td> 
+	  						</tr>
+
         </div>
         <!-- page content -->
 
        <!-- footer content -->
-        <jsp:include page="footer.jsp" />
+        <!-- <jsp:include page="footer.jsp" /> -->
         <!-- /footer content -->
       </div>
     </div>
