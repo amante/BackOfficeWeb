@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Backoffice Web v2.0</title>
+    <title>Backoffice Web 2.0</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -45,7 +45,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.html">BackOffice Web v2.0</a>
+                <a class="navbar-brand" href="index.html">BackOffice Web 2.0</a>
             </div>
             <!-- /.navbar-header -->
 
@@ -89,53 +89,51 @@
                             <a href="#"><i class="fa fa-dashboard fa-fw"></i> Mantenedores<span class="fa arrow"></span></a>
                             <ul class="nav nav-second-level">
                                 <li>
-                                    <a href="#">Congelamiento</a>
+                                    <a href="../content/mantenedores-congelamiento.html">Congelamiento</a>
                                 </li>
                                 <li>
-                                    <a href="#">Congelamiento Masivo</a>
+                                    <a href="../content/mantenedores-congelamientomasivo.html">Congelamiento Masivo</a>
                                 </li>
                                 <li>
-                                    <a href="#">Stock</a>
+                                    <a href="../content/mantenedores-stock.html">Stock</a>
                                 </li>
                                 <li>
-                                    <a href="#">Tamaño Masivo</a>
+                                    <a href="../content/mantenedores-tamanomasivo.html">Tamaño Masivo</a>
                                 </li>
                             </ul>
 							<!-- /.nav-second-level -->
                         </li>
                         <li>
-                            <a href="#"><i class="fa fa-bar-chart-o fa-fw"></i> Reportes</a>
-                        </li>
-                        <li>
                             <a href="#"><i class="fa fa-table fa-fw"></i> Usuarios<span class="fa arrow"></span></a>
                             <ul class="nav nav-second-level">
                                 <li>
-                                    <a href="#">Agregar</a>
+                                    <a href="../content/usuarios-agregar.html">Agregar</a>
                                 </li>
                                 <li>
-                                    <a href="#">Eliminar</a>
+                                    <a href="../content/usuarios-eliminar.html">Eliminar</a>
                                 </li>
                                 <li>
-                                    <a href="#">Modificar</a>
+                                    <a href="../content/usuarios-modificar.html">Modificar</a>
                                 </li>
                             </ul>
                         </li>
                         <li>
-                            <a href="#"><i class="fa fa-table fa-fw"></i> Informes<span class="fa arrow"></span></a>
+                            <a href="#"><i class="fa fa-wrench fa-fw"></i> Perfilamiento<span class="fa arrow"></span></a>
 							<ul class="nav nav-second-level">
-								<li><a href="#">Congelamiento</a></li>
-								<li><a href="#">Stock</a></li>
-								<li><a href="#">Registro Log</a></li>
-								<li><a href="#">Estadisticas</a></li>
+								<li><a href="../content/perfilamiento-mantperf.html">Mant. Perf.</a></li>
+								<li><a href="../content/perfilamiento-asignarperf.html">Asignar Perf-Mod</a></li>
+								<li><a href="../content/perfilamiento-asignarusu.html">Asignar Usu-Perf</a></li>
 							</ul>
                         </li>
                         <li>
-                            <a href="#"><i class="fa fa-wrench fa-fw"></i> Perfilamiento<span class="fa arrow"></span></a>
-							<ul class="nav nav-second-level">
-								<li><a href="/parisbackoffice/Perfilamiento.do?method=cargaMantencionPerfiles">Mant. Perf.</a></li>
-								<li><a href="/parisbackoffice/Perfilamiento.do?method=cargaMantencionPerfilesModulo">Asignar Perf-Mod</a></li>
-								<li><a href="/parisbackoffice/Perfilamiento.do?method=cargarMantencionUsuarioPerfiles">Asignar Usu-Perf</a></li>
-							</ul>
+                            <a href="#"><i class="fa fa-wrench fa-fw"></i> Protección de Precios<span class="fa arrow"></span></a>
+                            <ul class="nav nav-second-level">
+                                <li><a href="../content/proteccion-excepciones.html">Excepciones</a></li>
+                                <li><a href="../content/proteccion-excepcionesmasivas.html">Excepciones Masivas</a></li>
+                                <li><a href="../content/proteccion-dfc.html">DFC</a></li>
+                                <li><a href="../content/proteccion-logs.html">Logs</a></li>
+                                <li><a href="../content/proteccion-filtrado.html">Filtrado</a></li>
+                            </ul>
                         </li>
                     </ul>
                 </div>
@@ -146,114 +144,11 @@
 
         <div id="page-wrapper">
             <div class="row">
-                <div class="col-lg-12">
-                    <h1 class="page-header">Bienvenido a BackOffice Web v2.0</h1>
-					<h3>Features List: </h3>
+                <div class="col-lg-16">
+                    <h1 class="page-header">Bienvenidos al BackOffice Web 2.0</h1>
+					<h4>Favor selecciona una opción del menu</h4>
                 </div>
                 <!-- /.col-lg-12 -->
-            </div>
-            <!-- /.row -->
-            <div class="row">
-                <div class="col-lg-8">
-                    <div class="panel panel-default">
-                        <div class="panel-heading">
-                            Mantenedores
-                        </div>
-                        <div class="panel-body">
-                            <ul class="nav nav-pills">
-                                <li class="active"><a href="#congelamiento-pills" data-toggle="tab">Congelamiento</a>
-                                </li>
-                                <li><a href="#congelamiento-masivo-pills" data-toggle="tab">Congelamiento Masivo</a>
-                                </li>
-                                <li><a href="#stock-pills" data-toggle="tab">Stock</a>
-                                </li>
-                                <li><a href="#tamano-masivo-pills" data-toggle="tab">Tamaño Masivo</a>
-                                </li>
-                            </ul>
-
-                            <!-- Tab panes -->
-                            <div class="tab-content">
-                                <div class="tab-pane fade in active" id="congelamiento-pills">
-                                    <h4>Congelamiento</h4>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                                </div>
-                                <div class="tab-pane fade" id="congelamiento-masivo-pills">
-                                    <h4>Congelamiento Masivo</h4>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                                </div>
-                                <div class="tab-pane fade" id="stock-pills">
-                                    <h4>Stock</h4>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                                </div>
-                                <div class="tab-pane fade" id="tamano-masivo-pills">
-                                    <h4>Tamaño Masivo</h4>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- /.col-lg-8 -->
-                <div class="col-lg-4">
-                    <div class="panel panel-warning">
-                        <div class="panel-heading">
-                            Reportes
-                        </div>
-                        <div class="panel-body">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum tincidunt est vitae ultrices accumsan. Aliquam ornare lacus adipiscing, posuere lectus et, fringilla augue.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- /.row -->
-            <div class="row">
-            </div>
-            <!-- /.row -->
-            <div class="row">
-                <div class="col-lg-8">
-                    <div class="panel panel-default">
-                        <div class="panel-heading">
-                            Informes
-                        </div>
-                        <!-- /.panel-heading -->
-                        <div class="panel-body">
-                            <!-- Nav tabs -->
-                            <ul class="nav nav-tabs">
-                                <li class="active"><a href="#congelamiento-tab" data-toggle="tab">Congelamiento</a>
-                                </li>
-                                <li><a href="#stock-tab" data-toggle="tab">Stock</a>
-                                </li>
-                                <li><a href="#registro-log-tab" data-toggle="tab">Registro Log</a>
-                                </li>
-                                <li><a href="#estadisticas-tab" data-toggle="tab">Estadísticas</a>
-                                </li>
-                            </ul>
-
-                            <!-- Tab panes -->
-                            <div class="tab-content">
-                                <div class="tab-pane fade in active" id="congelamiento-tab">
-                                    <h4>Congelamiento</h4>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                                </div>
-                                <div class="tab-pane fade" id="stock-tab">
-                                    <h4>Stock</h4>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                                </div>
-                                <div class="tab-pane fade" id="registro-log-tab">
-                                    <h4>Registro Log</h4>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                                </div>
-                                <div class="tab-pane fade" id="estadisticas-tab">
-                                    <h4>Estadísticas</h4>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- /.panel-body -->
-                    </div>
-                    <!-- /.panel -->
-                </div>
-                <!-- /.col-lg-6 -->
             </div>
             <!-- /.row -->
         </div>
