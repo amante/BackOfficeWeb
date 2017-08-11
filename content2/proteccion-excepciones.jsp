@@ -66,6 +66,35 @@
 			<h3 align="center">Excepciones</h3>
 			<h2 align="left">SKU:</h2><input type="text" name="nombre">
 			<button type="button">Buscar</button>
+			
+			<div id="scroll" style="overflow-y: scroll;overflow-x:hidden;height:250px;width: 70%">
+  					<table  border="1" width="90%" style="border-collapse: collapse; border-style: dotted">
+  				
+	  					<tr  bgcolor="#638cb5">
+	  						<td width="25%" align="center"><font size="2" color="white">Codigo Sku</font></td>
+	  						<td width="25%" align="center"><font size="2" color="white">Excepcion</font></td>
+	  						<td width="25%" align="center"></td>
+	  						<td width="25%" align="center"><font size="2" color="white">Fecha Expiracion</font></td>
+	  					</tr>
+	  					
+	  					
+	  						<tr onmouseover="cambiar_color_over(this)" onmouseout="cambiar_color_out(this)">	
+	  							<td width="25%" align="center"><font size="2">232204-999-</font></td>
+	  							   <td width="25%" align="center">
+	  							  <input type="checkbox" name="excepcionFlags" value="on" id="excepcionFlags0">
+	  							  </td> 
+	  							 <td width="25%" align="center">
+	  								<button type="button">Modificar</button>
+	  							 </td> 
+	  							 <td width="25%" align="center"></td>
+	  						</tr>					
+	  				</table>
+	  			</div>	
+	  			<table  border="0"  ></table>
+  				</td>
+  			</tr>
+  		</table>
+
         </div>
         <!-- page content -->
 

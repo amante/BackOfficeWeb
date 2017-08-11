@@ -92,7 +92,7 @@
 	  									</font>
 	  								</td>
 	  								<td width="33%" align="center">
-	  							  		<a onclick="modificar('bmadain', 1)">
+	  							  		<a onclick="modificar('Micky', 1)">
 	  							  			<button type="button">Modificar</button>
 	  							  		</a>
 	  							  	</td> 
