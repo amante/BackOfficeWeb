@@ -68,11 +68,34 @@
 			<h2 align="left">Fecha:</h2>  <input type="date" name="fecha">
 			<h2 align="left">DFC:</h2><input type="text" name="nombreDFC">
 			<button type="button">Buscar</button>
+			
+			<div id="scroll" style="overflow-y: scroll;overflow-x:hidden;height:250px;width: 70%">
+  					<table  border="1" width="90%" style="border-collapse: collapse; border-style: dotted">
+  				
+	  					<tr  bgcolor="#638cb5">
+	  						<td width="25%" align="center"><font size="2" color="white">Codigo Sku</font></td>
+	  						<td width="25%" align="center"><font size="2" color="white">Precio Anterior</font></td>
+	  						<td width="25%" align="center"><font size="2" color="white">Precio Nuevo</font></td>
+	  						<td width="25%" align="center"><font size="2" color="white">Costo Promedio</font></td>
+	  						<td width="25%" align="center"><font size="2" color="white">Descripcion Excepcion.</font></td>
+	  						<td width="25%" align="center"><font size="2" color="white">Fecha</font></td>
+	  						<td width="25%" align="center"><font size="2" color="white">Dfc</font></td>
+	  					</tr>
+	  					
+	  						<tr onmouseover="cambiar_color_over(this)" onmouseout="cambiar_color_out(this)">	
+	  							<td width="25%" align="center"><font size="2">105053-999-</font></td>
+	  							<td width="25%" align="center"><font size="2">$0</font></td>
+	  							<td width="25%" align="center"><font size="2">$0</font></td>
+	  							<td width="25%" align="center"><font size="2">$0</font></td>
+	  							<td width="25%" align="center"><font size="2">Sku marcado Excepcion TarjetaCencosud</font></td>
+	  							<td width="25%" align="center"><font size="2">2017-08-09</font></td>
+	  							<td width="25%" align="center"><font size="2"></font></td>
+	  						</tr>
         </div>
         <!-- page content -->
 
         <!-- footer content -->
-        <jsp:include page="footer.jsp" />
+        <!-- <jsp:include page="footer.jsp" /> -->
         <!-- /footer content -->
       </div>
     </div>

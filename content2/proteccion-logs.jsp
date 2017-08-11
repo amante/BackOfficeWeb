@@ -67,11 +67,41 @@
 			<h2 align="left">SKU o DFC:</h2><input type="text" name="nombre">
 			<h2 align="left">Fecha:</h2>  <input type="date" name="fecha">
 			<button type="button">Buscar</button>
+			
+			<div id="scroll" style="overflow-y: scroll;overflow-x:hidden;height:250px;width: 80%">
+  					<table  border="1" width="100%" style="border-collapse: collapse; border-style: dotted">
+  				
+	  					<tr  bgcolor="#638cb5">
+	  					    <td width="3%" align="center"><font size="2" color="white">Id</font></td>
+	  						<td width="12%" align="center"><font size="2" color="white">Codigo Sku</font></td>
+	  						<td width="8%" align="center"><font size="2" color="white">Excepcion</font></td>
+	  						<td width="8%" align="center"><font size="2" color="white">Porcentaje</font></td>
+	  						<td width="9%" align="center"><font size="2" color="white">Dfc</font></td>
+	  						<td width="12%" align="center"><font size="2" color="white">Fecha Actualizacion</font></td>
+	  						<td width="9%" align="center"><font size="2" color="white">Usuario</font></td>
+	  						<td width="25%" align="center"><font size="2" color="white">Descripcion</font></td>
+	  						<td width="12%" align="center"><font size="2" color="white">Fecha Inicio Excepcion</font></td>
+	  					</tr>
+	  					
+	  						<tr onmouseover="cambiar_color_over(this)" onmouseout="cambiar_color_out(this)">	
+	  						    <td width="10%" align="center"><font size="2">22774</font></td>
+	  							<td width="10%" align="center"><font size="2">737157-999-</font></td>
+	  							<td width="10%" align="center"><font size="2">SI</font></td>
+	  							<td width="10%" align="center"><font size="2">N/A</font></td>
+	  							<td width="10%" align="center"><font size="2">N/A</font></td>
+	  							<td width="10%" align="center"><font size="2">2017-08-11</font></td>
+	  							<td width="10%" align="center"><font size="2">cgomez</font></td>
+	  							<td width="10%" align="center"><font size="2">ACTUALIZO EXCEPCION</font></td>
+	  							<td width="30%" align="center"><font size="2">2017-08-11</font></td>
+	  						</tr>
+	  				</table>
+	  		</div>
+			
         </div>
         <!-- page content -->
 
          <!-- footer content -->
-        <jsp:include page="footer.jsp" />
+        <!-- <jsp:include page="footer.jsp" /> -->
         <!-- /footer content -->
       </div>
     </div>
