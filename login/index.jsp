@@ -35,7 +35,7 @@
         <div id="top"></div>
 
         <!-- /.parallax full screen background image -->
-        <div class="fullscreen landing parallax" style="background-image:url('https://static1.squarespace.com/static/5429bbc9e4b06a1d711a4542/t/549d4e6fe4b0d2e1e20b3853/1419595410158/Costanera_Center_5.jpg?format=1500w');" data-img-width="1500" data-img-height="750" data-diff="100">
+        <div class="fullscreen landing parallax" style="background-image:url('images/Costanera_Center_5.jpg');" data-img-width="1500" data-img-height="750" data-diff="100">
 
             <div class="overlay">
                 <div class="container">
@@ -180,22 +180,21 @@
         </div>
         <!-- /.contact section -->
         <div id="contact">
-            <div class="contact fullscreen parallax" style="background-image:url('https://s.yimg.com/uu/api/res/1.2/KIVEm7GTX7XeZ9MV3Hikkw--/aD0zMzAwO3c9NTEwMDtzbT0xO2FwcGlkPXl0YWNoeW9u/http://media.zenfs.com/es_AR/News/iprofesional.com/397959.jpg');" data-img-width="2000" data-img-height="1334" data-diff="100">
+            <div class="contact fullscreen parallax" style="background-image:url('images/TCHdePrcs.jpg');" data-img-width="2000" data-img-height="1334" data-diff="100">
                 <div class="overlay">
                     <div class="container">
                         <div class="row contact-row">
 
                             <!-- /.address and contact -->
                             <div class="col-sm-5 contact-left wow fadeInUp">
-                                <h2><span class="highlight">Mantente</span> en contacto</h2>
+                                <h2><span class="highlight">Estemos</span> en contacto</h2>
                                 <ul class="ul-address">
                                     <li><i class="pe-7s-map-marker"></i>Avenida Vicuña Mackena 6100, La Florida</br>
                                         Santiago, Chile
                                     </li>
-                                    <li><i class="pe-7s-phone"></i>+1 (123) 456-7890</br>
-                                        +2 (123) 456-7890
+                                    <li><i class="pe-7s-phone"></i></br>
                                     </li>
-                                    <li><i class="pe-7s-mail"></i><a href="mailto:alexis.manterojas@cencosud.com">Tiburones de Sistemas</a></li>
+                                    <li><i class="pe-7s-mail"></i><a href="mailto:">Desarrollo Evolutivo Paris.cl</a></li>
                                     <li><i class="pe-7s-look"></i><a href="https://www.paris.cl/tienda/es/paris">www.paris.cl</a></li>
                                 </ul>	
 
