@@ -150,9 +150,9 @@ a:hover {
 	border-radius: 100px;
 }
 .btn-primary-paris:hover, .btn-primary-paris:focus, .btn-primary-paris:active, .btn-primary-paris.active, .open > .dropdown-toggle.btn-primary-paris {
-	border: 2px solid #0099CC;
+	border: 2px solid #ffffff;
 	background: transparent;
-	color: #0099CC;
+	color: #ffffff;
 }
 .btn-primary {
 	font-size: 17px;
@@ -280,6 +280,9 @@ a:hover {
 	text-decoration: underline;
 	color: white;
 	font-weight: 300;
+}
+.privacy a:hover {
+	text-decoration: none;
 }
 #policy {
 	padding: 100px 0 70px;
@@ -565,6 +568,9 @@ a:hover {
 }
 #contact  h2{
 	color: white;
+}
+#contact .overlay {
+	background-color: rgba(0, 0, 0, 0.75)
 }
 .ul-address a {
 	font-weight: normal;
