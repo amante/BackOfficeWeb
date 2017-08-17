@@ -62,8 +62,41 @@
 
         <!-- page content -->
         <div class="right_col" role="main">
-			<h1>Eliminar Usuario</h1>
+            <h1 align="center">Usuarios</h1>
+            <div id="scroll" style="overflow-x:hidden;height:200px;width: 100%">
+                <table  align="center" border="1" width="50%" style="border-collapse: collapse;">
+                    <tr  bgcolor="#638cb5">
+                        <td width="100%" align="center"><font size="2" color="white">Eliminar Usuarios</font></td>
+                    </tr>
+                    <tr>
+                        <table align="center">
+                        <p>
+                            <tr><td>Buscar Usuario</td>
+                            <td><input type="text" name="eliminar"></td>
+                            <td><button type="button">Buscar</button></td></tr>
+                        </p>
+                        </table>
+                    </tr>
+                </table>
+            </div>
+            <div id="scroll" style="overflow-x:hidden;height:200px;width: 100%"">
+            <table align="center" border="1" width="50%" style="border-collapse: collapse;">
+                   <tr bgcolor="#638cb5">
+                   <td align="center"><font size="2" color="white">Usuario</font></td>
+                   <td align="center"><font size="2" color="white">Fecha de Creación</font></td>
+                   <td align="center"><font size="2" color="white">Usuario Creador</font></td>
+                   <td></td>
+               </tr>
+               <tr>
+                   <td align="center">Miguel Angel Gonzales</td>
+                   <td align="center">22/12/2016</td>
+                   <td align="center">Ecomm</td>
+                   <td align="center"><button>Eliminar</button></td>
+               </tr> 
+            </table>
         </div>
+        </div>
+        
         <!-- page content -->
 
         <!-- footer content -->
@@ -96,7 +129,7 @@
     <script src="vendors/bootstrap-daterangepicker/daterangepicker.js"></script>
 
     <!-- Custom Theme Scripts -->
-    <script src="build/js/custom.min.js"></script>
+    <script src="build/js/custom.js"></script>
 	
   </body>
 </html>
