@@ -63,16 +63,38 @@
         <!-- page content -->
         <div class="right_col" role="main">
 			<h1>Congelamiento Masivo</h1>
+           <table border="0">
+        <tr>
+            <td ></td>
+            <td colspan="3"><textarea name="listaSku" cols="13" rows="18" id="codigoSku">fdsafdsff</textarea></td>
+            <td ></td>
+            
+            <td valign="top">   
+            <table border="0">
+                <tr>
+                    <td>Descripcion Congelamiento:&nbsp;</td>
+                    <td><input type="text" name="Descripcion" disabled="true"></td>
+                </tr>
+                    <tr>
+                    <td>Fecha Inicio:&nbsp;</td>
+                    <td><input type="date" name="Inicio"></td>
+                </tr>
+                <tr>
+                    <td> Fecha de Termino:&nbsp;</td>
+                    <td><input type="date" name="termino"></td>
+                </tr>
+                <tr>
+                <td colspan="2">&nbsp;</td>
+                </tr>
+                <tr><td colspan="2" align="center"><button type="button">Grabar</button></td></tr>
+            </table>
         </div>
         <!-- page content -->
-		
-        <!-- footer content -->
-        <jsp:include page="footer.jsp" />
-        <!-- /footer content -->
+       
       </div>
+
     </div>
 
-	<!-- jQuery -->
     <script src="vendors/jquery/dist/jquery.min.js"></script>
     <!-- Bootstrap -->
     <script src="vendors/bootstrap/dist/js/bootstrap.min.js"></script>
