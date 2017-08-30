@@ -55,23 +55,100 @@
               <div class="nav toggle">
                 <a id="menu_toggle"><i class="fa fa-bars"></i></a>
               </div>
-			<h1>BackOffice Web 2.0</h1>
+            <h1>BackOffice Web 2.0</h1>               
             </nav>
           </div>
         </div>
 
         <!-- page content -->
         <div class="right_col" role="main">
-			<h1>Tamaño Masivo</h1>
+            <h1>Tamaño Masivo</h1><div class="blanco">
+    <table border="0">
+        <tr>
+            <td ></td>
+            <td colspan="3"><textarea name="listaSku" cols="13" rows="18" id="codigoSku">fdsafdsff</textarea></td>
+            <td ></td>
+            
+            <td valign="top">   
+            <table border="0">
+                <tr>
+                    <td valign="center">Tamaño Sku</td>
+                    <td>
+                        <select name="tamanoSku" id="1"><option value="5" selected="selected"><font size="2">Seleccionar</font></option>
+                            <option value="0"><font size="2">Pequeño</font></option>
+                            <option value="1"><font size="2">Grande</font></option>
+                            <option value="2"><font size="2">Comodín, se muestra como pequeño</font></option>
+                            <option value="3"><font size="2">Muy pequeño</font></option>
+                            <option value="4"><font size="2">A consignación (despacho cargo al proveedor)</font></option></select>
+                            </td>
+                        </tr>
+                    <tr>
+                    <td colspan="5" align="center">
+                        <font color="red" size="2"><textarea name="msn" readonly="readonly" style="width: 330px;height: 150px;">El SKU fdsafdsff no esta registrado o no es válido.</textarea></font>
+                    </td>
+                </tr>
+            </table>
+            </td>
+        <tr>
+            <td align="center" colspan="10"><input type="submit" value="Grabar" onclick="graba();" class="boton"/> </td>
+        </tr>
+    </table>
+        
+  </div>
+  
+ </div>
+</div>
+            <div class="blanco">
+    <table border="0">
+        <tr>
+            <td >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </td>
+            <td colspan="3"><textarea name="listaSku" cols="13" rows="18" id="codigoSku">fdsafdsff</textarea></td>
+            <td >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+            
+            <td valign="top">   
+            <table border="0">
+                <tr>
+                    <td valign="top">Tamaño Sku</td>
+                    <td valign="top">
+                        <select name="tamanoSku" id="1"><option value="5" selected="selected"><font size="2">Seleccionar</font></option>
+                            <option value="0"><font size="2">Pequeño</font></option>
+                            <option value="1"><font size="2">Grande</font></option>
+                            <option value="2"><font size="2">Comodín, se muestra como pequeño</font></option>
+                            <option value="3"><font size="2">Muy pequeño</font></option>
+                            <option value="4"><font size="2">A consignación (despacho cargo al proveedor)</font></option></select>
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td colspan="5" align="center">
+                        <font color="red" size="2">
+                            <textarea name="msn" readonly="readonly" style="width: 330px;height: 150px;">El SKU fdsafdsff no esta registrado o no es válido.
+</textarea>
+                        </font>
+                    </td>
+                </tr>
+            
+            </table>
+            </td>
+        
+        <tr>
+            <td align="center" colspan="10"><input type="submit" value="Grabar" onclick="graba();" class="boton"/> </td>
+        </tr>
+    </table>
+        
+  </div>
+  
+ </div>
+</div>
+            
         </div>
         <!-- page content -->
-		
+
         <!-- footer content -->
         <jsp:include page="footer.jsp" />
         <!-- /footer content -->
       </div>
     </div>
-
 	<!-- jQuery -->
     <script src="vendors/jquery/dist/jquery.min.js"></script>
     <!-- Bootstrap -->

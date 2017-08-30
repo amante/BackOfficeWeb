@@ -62,7 +62,23 @@
 
         <!-- page content -->
         <div class="right_col" role="main">
-			<h1>Modificar Usuario</h1>
+            <h1 align="center">Usuarios</h1>
+            <div id="scroll" style="overflow-y: scroll;overflow-x:hidden;height:200px;width: 100%">
+                <table  align="center" border="1" width="50%" style="border-collapse: collapse; border-style: dotted">
+                    <tr  bgcolor="#638cb5">
+                        <td width="100%" align="center"><font size="2" color="white">Modificar Usuarios</font></td>
+                    </tr>
+                    <tr>
+                        <table align="center">
+                        <p>
+                            <tr><td>Buscar Usuario</td>
+                            <td><input type="text" name="modificar"></td>
+                            <td><button type="button">Buscar</button></td></tr>
+                        </p>
+                        </table>
+                    </tr>
+                </table>
+            </div>
         </div>
         <!-- page content -->
 

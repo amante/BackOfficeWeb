@@ -63,6 +63,17 @@
         <!-- page content -->
         <div class="right_col" role="main">
 			<h1>Congelamiento</h1>
+
+            <table>
+                <tr><td>Código SKU:&nbsp;</td><td><input type="text" name="fecha" disabled="true" value="151874-999-"></td></tr>
+                <tr><td>Indicador de Congelamiento:&nbsp;</td><td><select name="IndicadorCongelamiento" id="1"><option value="2" selected="selected"><font size="2">Seleccionar</font></option>
+                            <option value="0"><font size="2">Congelado</font></option>
+                            <option value="1"><font size="2">No Congelado</font></option>select></td></tr>
+                <tr><td>Fecha Ultima Actualización:&nbsp;</td><td><input type="text" name="fecha" disabled="true" value="22/02/2017"></td></tr>
+                <tr><td>Descripción de Congelamiento:&nbsp;</td><td><input type="text" name="Congelamiento" disabled="true" value="Congelado por Precio Bajo Costo"></td></tr>
+                <tr><td>Fecha de Inicio:&nbsp;</td><td><input type="text" name="fechaInicio" disabled="true" value="01/01/2017"></td></tr>
+                <tr><td>Fecha de Termino:&nbsp;</td><td><input type="text" name="fechaTermino" disabled="true" value="01/01/2018"></td></tr>            
+            </table>
         </div>
         <!-- page content -->
 
