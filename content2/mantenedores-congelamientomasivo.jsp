@@ -37,11 +37,11 @@
           <div class="col-md-3 left_col">
 			<div class="left_col scroll-view">
 				<!-- Sidebar Top menu -->
-				<%@include file="menutop.jsp" %>
+				<jsp:include page="menutop.jsp"/>
 				<!-- /Sidebar Top menu -->	
 			
 				<!-- sidebar menu -->
-				<%@include file="menu.jsp" %>
+				<jsp:include page="menu.jsp"/>
 				<!-- /sidebar menu -->
 
 			</div>
@@ -90,7 +90,7 @@
             </table>
         </div>
         <!-- page content -->
-       
+       <jsp:include page="footer.jsp" />
       </div>
 
     </div>
