@@ -62,7 +62,29 @@
 
         <!-- page content -->
         <div class="right_col" role="main">
-			<h1>Agregar Usuario</h1>
+            <h1 align="center">Usuarios</h1>
+        
+            <div id="scroll" style="overflow-y: scroll;overflow-x:hidden;height:200px;width: 100%">
+                <table  align="center" border="1" width="50%" style="border-collapse: collapse">
+                    <tr  bgcolor="#638cb5">
+                        <td width="100%" align="center"><font size="2" color="white">Crear Usuarios</font></td>
+                        <table align="center">
+                            <tr>
+                                <td>Usuario</td>
+                                <td><input type="text" name="usuario"></td>
+                            </tr> 
+                            <tr>
+                                <td>Password </td>
+                                <td><input type="text" name="password"></td>
+                            </tr>
+                            <tr>
+                                <td>Confirmar Password </td>
+                                <td><input type="text" name="CfPass"></td>
+                            </tr> 
+                        </table>
+                    </tr>
+                </table>
+            </div>
         </div>
         <!-- page content -->
 
