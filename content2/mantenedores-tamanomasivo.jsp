@@ -27,7 +27,7 @@
     <link href="vendors/bootstrap-daterangepicker/daterangepicker.css" rel="stylesheet">
 
     <!-- Custom Theme Style -->
-    <link href="build/css/custom.min.css" rel="stylesheet">
+    <link href="build/css/custom.css" rel="stylesheet">
   </head>
 
 <body class="nav-md">
@@ -62,7 +62,8 @@
 
         <!-- page content -->
         <div class="right_col" role="main">
-            <h1>Tamaño Masivo</h1><div class="blanco">
+            <h1>Tamaño Masivo</h1>
+				<div class="blanco">
     <table border="0">
         <tr>
             <td ></td>
@@ -94,10 +95,10 @@
         </tr>
     </table>
         
-  </div>
+				</div>
   
- </div>
-</div>
+
+	
             <div class="blanco">
     <table border="0">
         <tr>
@@ -140,14 +141,12 @@
   
  </div>
 </div>
-            
-        </div>
         <!-- page content -->
 
         <!-- footer content -->
         <jsp:include page="footer.jsp" />
         <!-- /footer content -->
-      </div>
+
     </div>
 	<!-- jQuery -->
     <script src="vendors/jquery/dist/jquery.min.js"></script>

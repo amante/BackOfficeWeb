@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
 html , body{
 	
  height:100%;
@@ -144,7 +144,7 @@ html , body{
     padding: 0 0 4px 0
 }
 .left_col {
-    background: #2A3F54
+    background: #003f6d
 }
 .nav-sm .container.body .col-md-3.left_col {
     min-height: 100%;
@@ -326,7 +326,8 @@ html , body{
     border-bottom: 1px solid #D9DEE4;
     margin-bottom: 10px;
     width: 100%;
-    position: relative
+    position: relative;
+	padding-left: 20px;
 }
 @media (min-width: 480px) {
     .nav_menu {
@@ -356,7 +357,7 @@ body .container.body .right_col {
 .nav_title {
     width: 230px;
     float: left;
-    background: #2A3F54;
+    background: #003f6d;
     border-radius: 0;
     height: 57px
 }
@@ -487,9 +488,9 @@ body .container.body .right_col {
     background: #D9DEE4
 }
 body {
-    color: #73879C;
-    background: #2A3F54;
-    font-family: "Helvetica Neue", Roboto, Arial, "Droid Sans", sans-serif;
+    color: #666;
+    background: #003f6d;
+    font-family: 'Open Sans', sans-serif;
     font-size: 13px;
     font-weight: 400;
     line-height: 1.471
@@ -520,7 +521,8 @@ body {
     display: block
 }
 .page-title .title_right .pull-right {
-    margin: 10px 0
+    margin: 10px 0;
+	color: #ffffff !important;
 }
 .fixed_height_320 {
     height: 320px
@@ -814,13 +816,13 @@ a:focus {
     font-weight: 400;
     font-size: 22px;
     width: 100%;
-    color: #ECF0F1 !important;
+    color: #003f6d !important;
     margin-left: 0 !important;
     line-height: 59px;
     display: block;
-    height: 55px;
+    height: 155px;
     margin: 0;
-    padding-left: 10px
+    padding-left: 55px
 }
 .site_title:hover,
 .site_title:focus {
@@ -865,7 +867,8 @@ a:focus {
     float: left;
     margin: 0;
     padding-top: 16px;
-    width: 70px
+    width: 70px;
+	display: none;
 }
 .toggle a {
     padding: 15px 15px 0;
@@ -1668,7 +1671,7 @@ span.right {
     padding: 5px 0 0 0;
     position: fixed;
     width: 230px;
-    background: #2A3F54;
+    background: #003f6d;
 	z-index:999;
 }
 .sidebar-footer a {
