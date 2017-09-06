@@ -27,7 +27,7 @@
     <link href="vendors/bootstrap-daterangepicker/daterangepicker.css" rel="stylesheet">
 
     <!-- Custom Theme Style -->
-    <link href="build/css/custom.min.css" rel="stylesheet">
+    <link href="build/css/custom.css" rel="stylesheet">
   </head>
 
   <body class="nav-md">
@@ -90,7 +90,8 @@
             </table>
         </div>
         <!-- page content -->
-       <jsp:include page="footer.jsp" />
+
+
       </div>
 
     </div>
@@ -119,6 +120,6 @@
 
     <!-- Custom Theme Scripts -->
     <script src="build/js/custom.min.js"></script>
-	
+
   </body>
 </html>
